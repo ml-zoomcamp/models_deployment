@@ -4,7 +4,7 @@ import os
 class Model_loader:
     def __init__(self,
                     path_to_dv:os.PathLike = "models/dv.bin",
-                        path_to_lr:os.PathLike = "models/model1.bin"):
+                        path_to_lr:os.PathLike = "models/model2.bin"):
 
         # load DictVectorizer
         with open(path_to_dv, 'rb') as dv_file: 
